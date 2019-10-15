@@ -7,6 +7,6 @@ jobs:
     steps:
     - name: hello-world
       run: |
-        echo "hello $NAME" | echo "hello github"
+        echo "hello $NAME"
     - env:
         NAME: Miriam
